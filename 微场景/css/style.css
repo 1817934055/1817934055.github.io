@@ -130,6 +130,7 @@ body {
 /*第二屏文字样式*/
 .s2 {
     color: #00f8ca;
+    margin-top: -22px;
 }
 
 .s2 h2 {
