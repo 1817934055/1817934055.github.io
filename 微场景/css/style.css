@@ -25,12 +25,15 @@ body {
     right:auto;
     top:auto;
     bottom:5%;
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
+}
+.swiper{
+    
 }
 
 
 /***********************************************.s1第一屏样式***************************************/
-.s1,.s2,.s3,.s4{
+.s1,.s2,.s3,.s4,.s5,.s6{
     background: url("../img/bj.png");
     height: 100%;
     position: relative;
@@ -422,6 +425,292 @@ body {
     top: 280%;
     margin-left: 18px;
 }
+
+/**************p*****************/
+.s4 .main p:nth-of-type(1){
+    position: absolute;
+    top:236%;
+    left: 26%;
+}
+.s4 .main p:nth-of-type(2){
+    position: absolute;
+    top: 236%;
+    left: 64%;
+}
+.s4 .main p:nth-of-type(3){
+    position: absolute;
+    left: 10%;
+    top: 330%;
+}
+.s4 .main p:nth-of-type(4){
+    position: absolute;
+    top: 391%;
+    left: 87%;
+}
+.s4 .main p:nth-of-type(5){
+    position: absolute;
+    top: 450%;
+    left: 63%;
+}
+.s4 .main p:nth-of-type(6){
+    position: absolute;
+    top: 580%;
+    left: 10%;
+}
+.s4 .main p:nth-of-type(7){
+    position: absolute;
+    top:200%;
+    top: 640%;
+    left: 76%;
+}
+.s4 .main p:nth-of-type(8){
+    position: absolute;
+    top: 700%;
+    left: 55%;
+}
+
+
+.s4 .main p:nth-of-type(9){
+    position: absolute;
+    top: 820%;
+    left: 10%;
+}
+
+.s4 .main p:nth-of-type(10){
+    position: absolute;
+    top: 882%;
+    left: 57%;
+}
+.s4 .main p:nth-of-type(11){
+    position: absolute;
+    top: 942%;
+    left: 51%;
+}
+
+
+/**************************img*************************/
+.s4 .main img:nth-of-type(4){
+    position: absolute;
+    width: 20px;
+    left:0;
+    top: 370%;
+}
+.s4 .main img:nth-of-type(5){
+    position: absolute;
+    width: 80%;
+    height: 15px;
+    top: 445%;
+    right: 15%
+}
+.s4 .main img:nth-of-type(6){
+    position: absolute;
+    height: 15px;
+    width: 58%;
+    right: 39%;
+    top: 500%;
+}
+.s4 .main img:nth-of-type(7){
+    position: absolute;
+    width: 20px;
+    left:0;
+    top: 620%;
+}
+
+
+.s4 .main img:nth-of-type(8){
+    position: absolute;
+     width: 70%;
+    height: 15px;
+    top: 690%;
+    right: 26%;
+}
+
+.s4 .main img:nth-of-type(9){
+    position: absolute;
+    height: 15px;
+    width: 50%;
+    top: 750%;
+    right: 47%;
+}
+
+.s4 .main img:nth-of-type(10){
+    position: absolute;
+    position: absolute;
+    width: 20px;
+    left:0;
+    top: 860%;
+}
+
+.s4 .main img:nth-of-type(11){
+    position: absolute;
+    width: 50%;
+    height: 15px;
+    top: 930%;
+    right: 46%;
+}
+
+.s4 .main img:nth-of-type(12){
+    position: absolute;
+    width: 45%;
+    height: 15px;
+    top: 990%;
+    right: 51%;
+}
+
+.footer span{
+    font-size:13px;
+}
+.footer span:nth-of-type(1){
+    position: absolute;
+    right: 10%;
+    top: 1116%;
+}
+.footer span:nth-of-type(2){
+    position: absolute;
+    right: 16%;
+    top: 1200%;
+}
+
+
+
+/*************************************************第五页****************************************/
+.s5 {
+    color: #00f8ca;
+    margin-top: -22px;
+}
+
+.s5 h2 {
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+    margin-bottom:75px;
+}
+
+.s5 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.s5 h2::before,
+.s5 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s5 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s5 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
+
+.s5 .tupian li{
+    background: url(../img/12.png);
+    background-size:contain;
+    width: 134px;
+    height:170px;
+    float:left;
+    margin-top:20px;
+    margin-left:10px;
+    
+}
+.s5 span{
+    font-size:16px;
+}
+.s5 .tupian::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.s5 .tupian li img{
+    padding-top:15px;
+    padding-left:8px;
+}
+
+.s5 .tupian p{
+    margin:0;
+}
+.s5 .tupian p {
+    background:-webkit-linear-gradient(left,#00e8f4,#0af89a);;
+    color:#000;
+    font-size:15px;
+    width: 110px;
+    height: 20px;
+    border-radius: 20px;
+    line-height: 20px;
+    margin:0 auto;
+}
+/*********************************************第六页************************************/
+.s6 {
+    color: #00f8ca;
+    margin-top: -22px;
+}
+
+.s6 h2 {
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+    margin-bottom:75px;
+}
+
+.s6 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.s6 h2::before,
+.s6 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s6 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s6 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
