@@ -697,14 +697,140 @@ body {
     margin-top: 10px;
     top: 0;
 }
+.s6 .main{
+    position: absolute;
+    left:45px;
+    top:166px;
+    width: 2px;
+    height: 406px;
+    border-left:1px dashed #00fac5;
+}
+.s6 .main img:nth-of-type(1){
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+.s6 .main img:nth-of-type(2){
+    position: absolute;
+    
+}
+.s6 .main img:nth-of-type(3){
+    position: absolute;
+    
+}
+.s6 .main .main-top p i{
+    color:#000;
+   
+}
+.s6 .main .main-top p:nth-of-type(1){
+    background: url(../img/26.png);
+    background-size:cover;
+    width: 260px;
+    height: 28px;
+    position: absolute;
+    left: 18%;
+    line-height: 30px;
+}
+.s6 .main .main-top p:nth-of-type(2){
+    background: url(../img/28.png);
+    background-size:contain;
+    width: 281px;
+    height: 80px;
+    position: absolute;
+    top: 10%;
+    left: 17%;
+}
+.s6 .main .main-top p span:nth-of-type(1){
+    position: absolute;
+    left: 1%;
+}
+.s6 .main .main-top p span:nth-of-type(2){
+    position: absolute;
+    left: 1%;
+    top: 27%;
+}
+.s6 .main .main-top p span:nth-of-type(3){
+    position: absolute;
+    left: 1%;
+    top: 56%;
+}
+/****************************main-center************************/
+.s6 .main .main-center p i{
+    color:#000;
+}
+.s6 .main .main-center p:nth-of-type(1){
+    background: url(../img/26.png);
+    background-size:cover;
+    width: 260px;
+    height: 28px;
+    position: absolute;
+    top:33%;
+    left: 18%;
+    line-height: 30px;
+}
 
+.s6 .main .main-center p:nth-of-type(2){
+    background: url(../img/28.png);
+    background-size:contain;
+    width: 281px;
+    height: 80px;
+    position: absolute;
+    top: 43%;
+    left: 18%;
+}
+.s6 .main .main-center p span:nth-of-type(1){
+    position: absolute;
+    left:1%;
+}
+.s6 .main .main-center p span:nth-of-type(2){
+    position: absolute;
+    left:1%;
+    top: 24%;
+}
+.s6 .main .main-center p span:nth-of-type(3){
+    position: absolute;
+    left:1%;
+    top:55%;
+}
+/**************************************main-bottom***********************************/
+.s6 .main .main-bottom p i{
+    color:#000;
+}
+.s6 .main .main-bottom p:nth-of-type(1){
+    background: url(../img/26.png);
+    background-size:cover;
+    width: 260px;
+    height: 28px;
+    position: absolute;
+    top:66%;
+    left:18%;
+    line-height: 30px;
+}
+.s6 .main .main-bottom p:nth-of-type(2){
+    background: url(../img/28.png);
+    background-size:contain;
+    width: 281px;
+    height: 80px;
+    position: absolute;
+    left: 18%;
+    top: 77%;
+}
 
-
-
-
-
-
-
+.s6 .main .main-bottom p span:nth-of-type(1){
+    position: absolute;
+    left:1%;
+    
+}
+.s6 .main .main-bottom p span:nth-of-type(2){
+    position: absolute;
+    left:1%;
+    top: 26%;
+}
+.s6 .main .main-bottom p span:nth-of-type(3){
+    position: absolute;
+    left:1%;
+    top: 55%;
+}
 
 
 
