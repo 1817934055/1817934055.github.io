@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 html,
 body {
     position: relative;
@@ -37,3 +42,36 @@ img {
     margin-left:-13.5px;
     transform: rotate(90deg);
 }
+.swiper-button-next{
+    margin-left: -13.5px;
+    left:50%;
+    right:auto;
+    top:auto;
+    bottom:4%;
+    transform: rotate(-90deg);
+    animation: q 1s infinite;
+    animation-timing-function:linear;
+    width: 40px;
+    height: 30px;
+}
+@keyframes q{
+    from{
+       bottom: 4%;
+        opacity: 1;
+    }
+    to{
+        bottom: 8%;
+        opacity: 0;
+    }
+}
+/**********************************************第一张******************************************/
+.s1{
+    background: url("../img/1.jpg");
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+   
+}
+
